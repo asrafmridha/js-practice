@@ -128,13 +128,23 @@ if (true) {
   //undefined javaScript
   car =undefined;
 
-  console.log(car);  */
+  console.log(car);  
 
   //Empty Value
 
   let truck= "";
 
-  console.log (truck); //Empty String
+  console.log (truck); //Empty String */
+
+  //function call
+
+  function sleep(){
+
+    console.log('Someone is sleeping from 10 PM');
+  }
+  
+   sleep();
+  
 
 
 
