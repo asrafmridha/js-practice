@@ -138,14 +138,14 @@ if (true) {
 
   //function call
 
-  function sleep( parameters){
+  function sleep( parameters , time){
 
-    console.log( parameters +' is sleeping from 10 PM');
+    console.log( parameters +' is sleeping from ' + time);
   }
   
-   sleep('Rahim and'); 
-   sleep('Karim'); 
-   sleep('Jihad'); 
+   sleep('Rahim ','10 PM'); 
+   sleep('Karim' ,'11 PM'); 
+   sleep('Jihad' ,'12 PM'); 
   
 
 
