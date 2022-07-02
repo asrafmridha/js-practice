@@ -269,11 +269,60 @@
 
     let z= x.concat( " ", "world");
 
-    console.log( z); */
+    console.log( z);
 
     //JavaScript String indexOf()
     let str = "Please locate where 'locate' occurs!";
-     console.log(str.indexOf("locate"));
+     console.log(str.indexOf("Please"));  
+
+     //Back-Tics Syntax //Template Literals
+     let x= `it's my life 
+     my rules`;
+
+     console.log(x);
+
+     //interpolate variables 
+
+     let country= "Bangladesh";
+        let a=17;
+        let b=1;
+     let sentence= `I love ${country} . It's  a small country and it's population ${a+b} crore`;
+
+     console.log(sentence); 
+
+     //Nan = Not a Number
+     let a= 'apple';
+
+     let b=10;
+
+     console.log(a/b); 
+
+     //isNaN() to find out if a value is a not a number
+
+     let a= "100";
+     let b= 20;
+     let c= "d100";
+     let d=10e5;
+
+     console.log(isNaN(d));
+     console.log(isNaN(c));
+     console.log(isNaN(a));
+     console.log(isNaN(b));
+
+     //Number Methods and Properties
+
+     let x = 123;
+      let y=x.toString();
+
+      console.log( y);
+      console.log(typeof y);
+
+      //The toExponential() Method
+      let num1 = 9.6560000000000000;
+     console.log(num1.toExponential()); */
+
+     //JavaScript Arrays
+
 
 
 
