@@ -376,7 +376,7 @@
 
     //Also use join 
 
-    console.log( fruits.join( "  " )); */
+    console.log( fruits.join( "  " )); 
    //Push and Pop Js
 
    const fruits = ["Banana", "Orange", "Apple", "Mango"];
@@ -385,7 +385,41 @@
     console.log(fruits);
 
 
-    console.log(fruits.pop() ) ;
+    console.log(fruits.pop() ) ; 
+
+    //delete function js
+
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+   let b= delete fruits[0];
+
+   console.log(fruits);
+   console.log (b); 
+
+   //Splicing and Slicing Arrays to add middle or whatever you want
+
+   const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    let b=fruits.splice(2, 0, "Lemon", "Kiwi");
+    console.log(fruits); 
+
+    //Sorting an Array
+
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+      let b=fruits.sort();
+      //Sort an array in desecending order
+      let c= fruits.reverse();
+      console.log(b);
+     console.log(c); */
+
+     //Numeric Sort by using function
+
+     const points = [40, 100, 1, 5, 25, 10];
+      points.sort(function(a, b){
+        return a - b
+      
+      });
+
+      console.log(points);
 
 
 
