@@ -134,18 +134,35 @@ if (true) {
 
   let truck= "";
 
-  console.log (truck); //Empty String */
+  console.log (truck); //Empty String 
 
   //function call
 
   function sleep( parameters , time){
 
     console.log( parameters +' is sleeping from ' + time);
+
+ 
+
+    console.log('asraf');
   }
   
    sleep('Rahim ','10 PM'); 
    sleep('Karim' ,'11 PM'); 
-   sleep('Jihad' ,'12 PM'); 
+   sleep('Jihad' ,'12 PM'); */
+
+//Return Function
+
+function returnFunction( a ,b){
+
+    return a * b;
+
+}
+ let x= returnFunction( 4, 3);
+
+console.log(x);
+
+
   
 
 
