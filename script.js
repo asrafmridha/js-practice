@@ -409,7 +409,7 @@
       //Sort an array in desecending order
       let c= fruits.reverse();
       console.log(b);
-     console.log(c); */
+     console.log(c);
 
      //Numeric Sort by using function
 
@@ -419,8 +419,16 @@
       
       });
 
-      console.log(points);
+      console.log(points);  */
 
+      //For Descending
+
+      const points = [40, 100, 1, 5, 25, 10];
+      points.sort(function(a, b){
+        return b-a;
+      
+      });
+      console.log(points);
 
 
       
