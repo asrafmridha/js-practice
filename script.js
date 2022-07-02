@@ -319,10 +319,54 @@
 
       //The toExponential() Method
       let num1 = 9.6560000000000000;
-     console.log(num1.toExponential()); */
+     console.log(num1.toExponential()); 
 
      //JavaScript Arrays
 
+     const car= ["Volvo", "BMW", "SAAB"];
+
+     //Array is one Kind of object
+      console.log(typeof car);
+     document.getElementById('cars').innerHTML= car;
+  //access element by index number
+     console.log(car[1]);
+ //LAst element access for Array
+   
+   car[3]= "NEW CAR";
+   car [4]= "NEW CAR 2";
+  console.log (car[car.length-1]); 
+
+  //Loop for JavaScript
+   
+      let fruits1=[ "Apple", "Banana", "Orange", "PineApple","Lichi" ];
+
+      for (i=0 ; i<fruits1.length; i++){
+
+      console.log(fruits1[i]);
+     }
+
+     const fruits = ["Banana", "Orange", "Apple", "Mango"];
+   let fLen = fruits.length;
+
+    let text = "<ul>";
+     for (let i = 0; i < fLen; i++) {
+  text += "<li>" + fruits[i] + "</li>";
+}
+    text += "</ul>";
+
+    document.getElementById("fruits").innerHTML = text; */
+
+    //Array Foreach
+
+    const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
+
+    function myFunction(value){
+       console.log(value);
+
+    }
+    fruits2.forEach(myFunction);
+
+    console.log ('Finished');
 
 
 
