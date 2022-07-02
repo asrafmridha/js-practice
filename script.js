@@ -354,7 +354,7 @@
 }
     text += "</ul>";
 
-    document.getElementById("fruits").innerHTML = text; */
+    document.getElementById("fruits").innerHTML = text; 
 
     //Array Foreach
 
@@ -366,7 +366,17 @@
     }
     fruits2.forEach(myFunction);
 
-    console.log ('Finished');
+    console.log ('Finished'); 
+
+    //Converting Arrays to Strings
+
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+    // console.log(fruits.toString());
+
+    //Also use join 
+
+    console.log( fruits.join( "  " )); */
 
 
 
