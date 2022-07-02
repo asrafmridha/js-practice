@@ -177,7 +177,7 @@ function toCelcius(f){
     return (5/9) * (f-32);
   }
 
-  console.log ('the tempature is '  + toCelcius(77)  +  ' celcius'); */
+  console.log ('the tempature is '  + toCelcius(77)  +  ' celcius'); 
 
 //javaScript Object
 
@@ -206,9 +206,18 @@ Car.drive();
 
 console.log( Car.color);
 
-console.log( Car.weight);
-  
+console.log( Car.weight); 
 
+  //js Events  
+  
+//Display date Function Call
+
+function displayDate(){
+
+   document.getElementById('display').innerHTML=Date();
+}
+
+*/
 
 
 
