@@ -377,7 +377,15 @@
     //Also use join 
 
     console.log( fruits.join( "  " )); */
+   //Push and Pop Js
 
+   const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    let b=fruits.push("newFruit");
+    let c=fruits.push("newFruit2");
+    console.log(fruits);
+
+
+    console.log(fruits.pop() ) ;
 
 
 
