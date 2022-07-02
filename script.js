@@ -149,7 +149,7 @@ if (true) {
   
    sleep('Rahim ','10 PM'); 
    sleep('Karim' ,'11 PM'); 
-   sleep('Jihad' ,'12 PM'); */
+   sleep('Jihad' ,'12 PM'); 
 
 //Return Function
 
@@ -160,9 +160,53 @@ function returnFunction( a ,b){
 }
  let x= returnFunction( 4, 3);
 
-console.log(x);
+console.log(x); 
+
+//Convert Celcius
+function toCelcius(f){
+
+  return (5/9) * (f-32);
+}
 
 
+  let f= toCelcius(77);
+  console.log(f);  
+
+  function toCelcius(f){
+
+    return (5/9) * (f-32);
+  }
+
+  console.log ('the tempature is '  + toCelcius(77)  +  ' celcius'); */
+
+//javaScript Object
+
+const Car ={
+
+  name: 'BMW',
+  model:'126f',
+  weight:'800kg',
+  color: 'WHITE',
+
+  start: function(){
+
+   console.log("Car Has Started");
+  },
+
+  drive:function(){
+
+    this.start();
+   console.log('Car is Driving');
+  }
+
+}
+
+Car.drive();
+
+
+console.log( Car.color);
+
+console.log( Car.weight);
   
 
 
