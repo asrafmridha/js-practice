@@ -1,226 +1,281 @@
-/* document.write('hello world '   ); 
-    document.write(11+12);
+    /* document.write('hello world '   ); 
+        document.write(11+12);
 
-    console.log('Hello world');
-    console.log(2+4);
-     document.getElementById('h1').innerHTML= "hello js";
+        console.log('Hello world');
+        console.log(2+4);
+        document.getElementById('h1').innerHTML= "hello js";
 
-    prompt ('2 +2 = ?');
+        prompt ('2 +2 = ?');
 
-var message = "i learn about js";
+    var message = "i learn about js";
 
- let c= "hlw world";
+    let c= "hlw world";
 
- console.log(c);
+    console.log(c);
 
- const x=10;
+    const x=10;
 
- const y=5;
- console.log(x+y);
+    const y=5;
+    console.log(x+y);
 
 
- function myfunction(){
+    function myfunction(){
 
-    document.getElementById('demo').innerHTML= 'Changed';
- }
+        document.getElementById('demo').innerHTML= 'Changed';
+    }
 
- const firstName= 'Asraf';
+    const firstName= 'Asraf';
 
- const lastName= 'Mridha';
+    const lastName= 'Mridha';
 
- console.log (firstName + ' '+ lastName);
+    console.log (firstName + ' '+ lastName);
 
- */
+    */
 
-//let function baire use kora jabe na
-/* if (true) {
-  let x = 5;
+    //let function baire use kora jabe na
+    /* if (true) {
+      let x = 5;
 
-  console.log(x);
-}
+      console.log(x);
+    }
 
-if (true) {
+    if (true) {
 
-   var z=6;
-  console.log(z);
-}
+      var z=6;
+      console.log(z);
+    }
 
- console.log(z);
+    console.log(z);
 
- {
+    {
 
-    var x='asraf';
- }
-  console.log(x); 
+        var x='asraf';
+    }
+      console.log(x); 
 
- //array declaretion
+    //array declaretion
 
-  const cars=['toyota','bmw', 'bal'];
+      const cars=['toyota','bmw', 'bal'];
 
-  cars[0]="change";
+      cars[0]="change";
 
-  cars.push('new');
+      cars.push('new');
 
-  console.log(cars); 
+      console.log(cars); 
 
-  let x=10;
-  let y=5;
+      let x=10;
+      let y=5;
 
-  x /= y;
+      x /= y;
 
-  console.log(x);
+      console.log(x);
 
-  let x= 'Asraf';
+      let x= 'Asraf';
 
-  let y= 'Mridha';
+      let y= 'Mridha';
 
-  console.log(x + ' ' + y);
+      console.log(x + ' ' + y);
 
-  let text1= "What a nice ";
+      let text1= "What a nice ";
 
-  let text2= " day it is";
+      let text2= " day it is";
 
-  text1 += text2;
+      text1 += text2;
 
-  console.log(text1); 
+      console.log(text1); 
 
-  let x= 5+5;
+      let x= 5+5;
 
-   let y= "5" + 5;
+      let y= "5" + 5;
 
-   let z= 'HEllo 5';
-  //ki type data seta bujhate 
-  console.log(typeof x);  
+      let z= 'HEllo 5';
+      //ki type data seta bujhate 
+      console.log(typeof x);  
 
-  console.log(typeof z);
+      console.log(typeof z);
 
-  console.log(typeof z); 
-  
+      console.log(typeof z); 
+      
 
-  //scientific way
-  let x= 123e5;
+      //scientific way
+      let x= 123e5;
 
-  console.log(x); 
+      console.log(x); 
 
-  //Bollean Statement
+      //Bollean Statement
 
-  let x=5;
+      let x=5;
 
-  let y=6;
+      let y=6;
 
-  let b= (x==y);
+      let b= (x==y);
 
-  console.log(b);
-  
-//JavaScript Objects
+      console.log(b);
+      
+    //JavaScript Objects
 
- let x= 5;
- let y= 6;
+    let x= 5;
+    let y= 6;
 
- let z=7;
+    let z=7;
 
- let myObjective= { x:5 , y:6, z:7 };
+    let myObjective= { x:5 , y:6, z:7 };
 
-  console.log(myObjective);
+      console.log(myObjective);
 
-  console.log(typeof myObjective); 
-  
-  //undefined javaScript
-  car =undefined;
+      console.log(typeof myObjective); 
+      
+      //undefined javaScript
+      car =undefined;
 
-  console.log(car);  
+      console.log(car);  
 
-  //Empty Value
+      //Empty Value
 
-  let truck= "";
+      let truck= "";
 
-  console.log (truck); //Empty String 
+      console.log (truck); //Empty String 
 
-  //function call
+      //function call
 
-  function sleep( parameters , time){
+      function sleep( parameters , time){
 
-    console.log( parameters +' is sleeping from ' + time);
+        console.log( parameters +' is sleeping from ' + time);
 
- 
+    
 
-    console.log('asraf');
-  }
-  
-   sleep('Rahim ','10 PM'); 
-   sleep('Karim' ,'11 PM'); 
-   sleep('Jihad' ,'12 PM'); 
+        console.log('asraf');
+      }
+      
+      sleep('Rahim ','10 PM'); 
+      sleep('Karim' ,'11 PM'); 
+      sleep('Jihad' ,'12 PM'); 
 
-//Return Function
+    //Return Function
 
-function returnFunction( a ,b){
+    function returnFunction( a ,b){
 
-    return a * b;
+        return a * b;
 
-}
- let x= returnFunction( 4, 3);
+    }
+    let x= returnFunction( 4, 3);
 
-console.log(x); 
+    console.log(x); 
 
-//Convert Celcius
-function toCelcius(f){
+    //Convert Celcius
+    function toCelcius(f){
 
-  return (5/9) * (f-32);
-}
+      return (5/9) * (f-32);
+    }
 
 
-  let f= toCelcius(77);
-  console.log(f);  
+      let f= toCelcius(77);
+      console.log(f);  
 
-  function toCelcius(f){
+      function toCelcius(f){
 
-    return (5/9) * (f-32);
-  }
+        return (5/9) * (f-32);
+      }
 
-  console.log ('the tempature is '  + toCelcius(77)  +  ' celcius'); 
+      console.log ('the tempature is '  + toCelcius(77)  +  ' celcius'); 
 
-//javaScript Object
+    //javaScript Object
 
-const Car ={
+    const Car ={
 
-  name: 'BMW',
-  model:'126f',
-  weight:'800kg',
-  color: 'WHITE',
+      name: 'BMW',
+      model:'126f',
+      weight:'800kg',
+      color: 'WHITE',
 
-  start: function(){
+      start: function(){
 
-   console.log("Car Has Started");
-  },
+      console.log("Car Has Started");
+      },
 
-  drive:function(){
+      drive:function(){
 
-    this.start();
-   console.log('Car is Driving');
-  }
+        this.start();
+      console.log('Car is Driving');
+      }
 
-}
+    }
 
-Car.drive();
+    Car.drive();
 
 
-console.log( Car.color);
+    console.log( Car.color);
 
-console.log( Car.weight); 
+    console.log( Car.weight); 
 
-  //js Events  
-  
-//Display date Function Call
+      //js Events  
+      
+    //Display date Function Call
 
-function displayDate(){
+    function displayDate(){
 
-   document.getElementById('display').innerHTML=Date();
-}
+      document.getElementById('display').innerHTML=Date();
+    }
 
-*/
 
+    //String length Count
 
+    let text1="ABCDEFFDFSSDJHJKKIIK"
 
+    let b=text1.length;
 
+    console.log(b);
 
-  
+    //The solution to avoid this problem, is to use the backslash escape character.
+
+    let text = "We are the so-called \"Vikings\" from the north.";
+
+    console.log(text);  
+    
+    //String MEthod Slice
+
+    let str = "Apple, Banana, Kiwi";
+    let part = str.slice(7, 13);
+
+    console.log(part); 
+    //Replacing String Content
+
+    let tahmina = "I love tahmina";
+
+    let nowshin = tahmina.replace("tahmina", "nowshin nipun");
+
+    console.log(nowshin);
+
+    //Converting to Upper and Lower Case
+
+    let text1 = "hello world";
+
+    let uppercase = text1.toUpperCase();
+
+    console.log(uppercase);
+
+    let text2 ="HELLO WORLD";
+
+    let lowecase= text2.toLowerCase();
+
+    console.log(lowecase); 
+
+
+//JavaScript String concat()
+
+  let x= "Hello";
+
+    let y= "World";
+
+    let z= x.concat( " ", "world");
+
+    console.log( z); */
+
+    //JavaScript String indexOf()
+    let str = "Please locate where 'locate' occurs!";
+     console.log(str.indexOf("locate"));
+
+
+
+
+      
