@@ -477,21 +477,58 @@
        }
       let value= numbers.filter(myFunction);
        console.log(value);
-       */
+    
 
         //JavaScript Array reduce()
 
         const numbers = [45, 4, 9, 16, 25];
 
-        function myFunction(tot ,value){
+        function myFunction(total ,value){
  
-           console.log(tot);
-                return tot+value;
+           console.log(total);
+                return total+value;
         }
 
        let b= numbers.reduce(myFunction);
 
-       console.log(b);
+       console.log(b);  
+
+       //JavaScript Array every()
+
+       const numbers = [45, 4, 9, 16, 25];
+
+       function myFunction(value){
+
+          return 18<value;
+       }
+
+      let b= numbers.every(myFunction);
+      console.log(b);   
+      //JavaScript Array indexOf()
+
+      const fruits = ["Apple", "Orange", "Apple", "Mango"];
+           let position = fruits.indexOf("Apple");
+           console.log(position); 
+
+
+           //JavaScript Array last indexOf()
+
+           const fruits = ["Apple", "Orange", "Apple", "Mango"];
+           let position = fruits.lastIndexOf("Apple");
+           console.log(position); */
+
+           //JavaScript Array find()
+
+           const numbers = [4, 9, 16, 25, 29];
+
+           function myFunction(value, index, array) {
+            return value > 18;
+          }
+          let first = numbers.find(myFunction);
+
+          console.log(first);
+
+          
 
 
       
