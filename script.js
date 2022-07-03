@@ -428,14 +428,70 @@
         return b-a;
       
       });
-      console.log(points); */
+      console.log(points); 
 
       //Using Math.max() on an Array in JavaScript
 
       const points = [40, 100, 1, 5, 25, 10];
    console.log(  Math.max(40, 100, 1, 5, 25, 10) );
 
-   console.log(  Math.min(40, 100, 1, 5, 25, 10) );
+   console.log(  Math.min(40, 100, 1, 5, 25, 10) ); 
+
+  //JavaScript Array Iteration
+   
+ // JavaScript Array forEach()
+
+ const numbers = [45, 4, 9, 16, 25];
+
+     function myFunction(value, index, array){
+        console.log(value);
+        console.log(index);
+        console.log(array);
+
+        console.log( '-------------------------break');
+
+     }
+
+       numbers.forEach(myFunction);
+     
+
+       //JavaScript Array map()
+
+       const numbers = [45, 4, 9, 16, 25];
+ 
+       function myFunction(value){
+            return value*5;
+       }
+
+      let value= numbers.map(myFunction);
+
+       console.log(value);   
+
+       //JavaScript Array filter()
+
+       const numbers = [45, 4, 9, 16, 25];
+
+       function myFunction(value){
+
+             return 10<value;
+       }
+      let value= numbers.filter(myFunction);
+       console.log(value);
+       */
+
+        //JavaScript Array reduce()
+
+        const numbers = [45, 4, 9, 16, 25];
+
+        function myFunction(tot ,value){
+ 
+           console.log(tot);
+                return tot+value;
+        }
+
+       let b= numbers.reduce(myFunction);
+
+       console.log(b);
 
 
       
