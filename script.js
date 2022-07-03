@@ -419,7 +419,7 @@
       
       });
 
-      console.log(points);  */
+      console.log(points);  
 
       //For Descending
 
@@ -428,7 +428,14 @@
         return b-a;
       
       });
-      console.log(points);
+      console.log(points); */
+
+      //Using Math.max() on an Array in JavaScript
+
+      const points = [40, 100, 1, 5, 25, 10];
+   console.log(  Math.max(40, 100, 1, 5, 25, 10) );
+
+   console.log(  Math.min(40, 100, 1, 5, 25, 10) );
 
 
       
