@@ -515,7 +515,7 @@
 
            const fruits = ["Apple", "Orange", "Apple", "Mango"];
            let position = fruits.lastIndexOf("Apple");
-           console.log(position); */
+           console.log(position); 
 
            //JavaScript Array find()
 
@@ -526,9 +526,28 @@
           }
           let first = numbers.find(myFunction);
 
-          console.log(first);
+          console.log(first); 
 
-          
+          //JavaScript Date Objects
+                  
+          const d = new Date();
+          console.log(d); 
+  
+           new Date(milliseconds);
+
+          const d= new Date(2018 ,11);
+
+          console.log(d);*/
+
+          //JavaScript Math Object
+
+          let math= Math.round(4.5);
+          console.log(math);
+
+          let power= Math.pow(8,3);
+          console.log(power);
+
+         
 
 
       
