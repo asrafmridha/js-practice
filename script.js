@@ -537,7 +537,7 @@
 
           const d= new Date(2018 ,11);
 
-          console.log(d);*/
+          console.log(d);
 
           //JavaScript Math Object
 
@@ -545,7 +545,23 @@
           console.log(math);
 
           let power= Math.pow(8,3);
-          console.log(power);
+          console.log(power); */
+
+          //Rules for find out the leapyear
+
+          function isleapyear(year){
+          
+            if(year % 400===0 || ((year% 4 ===0)&& (year %100!==0))){
+
+             console.log(`${year} is a leap year`);
+            }
+            else{
+              console.log(`${year} is not a leap year`);
+             
+            }
+          }
+
+          isleapyear(2000);
 
          
 
