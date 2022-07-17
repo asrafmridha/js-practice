@@ -583,8 +583,7 @@
            voteable = (age < 18) ? "Too young" : "Old enough";
          }
 
-         console.log(voteable);    */
-
+         console.log(voteable);    
          //The JavaScript Switch Statement
 
          switch (new Date().getDay()) {
@@ -611,6 +610,23 @@
             default:
               day= " ";
         }
-        console.log(day);
+        console.log(day); 
 
+        //JavaScript For Loop
+  
+         const cars= ["a", "b"  ,"C" ,"d", "E"];
+
+         for(let i=0; i<cars.length; i++){
+
+           console.log(cars[i]);
+         }  */
+           
+         //The For In Loop js
+
+         const person = {fname:"John", lname:"Doe", age:25};
+
+          let text = "";
+          for (let x in person) {
+           console.log(person[x]);
+          }
       
