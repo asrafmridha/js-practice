@@ -619,7 +619,7 @@
          for(let i=0; i<cars.length; i++){
 
            console.log(cars[i]);
-         }  */
+         } 
            
          //The For In Loop js
 
@@ -629,4 +629,14 @@
           for (let x in person) {
            console.log(person[x]);
           }
-      
+           */
+
+             //The For Of Loop js
+
+             //let a="Asraf";
+             let a= ["Asraf", 35 ,20, "tonmoy"];
+
+             for(let x of a){
+
+             +console.log(x);
+             }
