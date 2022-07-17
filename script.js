@@ -545,7 +545,7 @@
           console.log(math);
 
           let power= Math.pow(8,3);
-          console.log(power); */
+          console.log(power); 
 
           //Rules for find out the leapyear
 
@@ -561,9 +561,23 @@
             }
           }
 
-          isleapyear(2000);
+          isleapyear(2000); 
 
+          let x= "";
+         console.log(Boolean(x)) ; */
+
+         //JavaScript Comparisons
+
+         let age="20";
          
 
+         age =Number(age);
+         if (isNaN(age)) {
+           voteable = "Input is not a number";
+         } else {
+           voteable = (age < 18) ? "Too young" : "Old enough";
+         }
+
+         console.log(voteable);
 
       
