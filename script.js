@@ -568,16 +568,21 @@
 
          //JavaScript Comparisons
 
-         let age="20";
+         let age="  ";
          
 
          age =Number(age);
-         if (isNaN(age)) {
-           voteable = "Input is not a number";
-         } else {
+         if (age== " ") {
+           voteable = "Please input a number";
+         } 
+           else if(isNaN(age)){
+
+            voteable= "Age is not a number";
+           }
+         else {
            voteable = (age < 18) ? "Too young" : "Old enough";
          }
 
-         console.log(voteable);
+         console.log(voteable);  
 
       
