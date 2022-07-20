@@ -705,6 +705,15 @@
 
         let car = "";  
 
-        console.log(car);
+        console.log(car); //return empty string
+
+        //empty an object by setting it to null:
+
+        let person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+        person=null;
+        console.log(person);
+
+
+       
 
             
