@@ -653,7 +653,7 @@
             } 
              while(i<10);
             console.log(text)  ;
-              */
+              
 
              //JavaScript Sets
 
@@ -668,6 +668,24 @@
             });
 
              console.log(letters);
-             console.log(text);
+             console.log(text); */
+
+             //JavaScript Maps
+
+             const fruits= new Map();
+
+             fruits.set("apples",500);
+             fruits.set("bananas", 300);
+             fruits.set("oranges", 200);
+            
+             fruits.delete("oranges");
+             console.log(fruits);
+             var v= fruits.get("apples");
+             var c=fruits.size;
+             var d= fruits.has("apples");
+             console.log(v);
+             console.log(c);
+             console.log(d);
+
            
         
