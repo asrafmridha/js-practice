@@ -668,7 +668,7 @@
             });
 
              console.log(letters);
-             console.log(text); */
+             console.log(text);
 
              //JavaScript Maps
 
@@ -686,6 +686,13 @@
              console.log(v);
              console.log(c);
              console.log(d);
+              */
+        
+             //The constructor Property
 
+        var  x=  "asraf".constructor 
+            console.log(x);
+        var y= 3.14.constructor
+            console.log(y);
            
         
