@@ -640,7 +640,7 @@
 
              +console.log(x);
              }
-             */
+           
 
              //The While Loop
 
@@ -653,5 +653,21 @@
             } 
              while(i<10);
             console.log(text)  ;
+              */
+
+             //JavaScript Sets
+
+             const letters = new Set(["a","b","c"]);
+             letters.add("d");
+            letters.add("e");
+            letters.add("f");
+
+            let text = "";
+            letters.forEach (function(value) {
+              text += value;
+            });
+
+             console.log(letters);
+             console.log(text);
            
         
