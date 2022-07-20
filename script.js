@@ -686,13 +686,19 @@
              console.log(v);
              console.log(c);
              console.log(d);
-              */
+             
         
              //The constructor Property
 
         var  x=  "asraf".constructor 
             console.log(x);
         var y= 3.14.constructor
-            console.log(y);
+            console.log(y); */
            
-        
+            //undefined for empty  a variable
+
+         var fruits = ["Banana", "Orange", "Apple", "Mango"];
+       var fruits= undefined;
+        console.log(fruits);
+
+            
