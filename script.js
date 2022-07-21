@@ -699,7 +699,7 @@
 
          var fruits = ["Banana", "Orange", "Apple", "Mango"];
        var fruits= undefined;
-        console.log(fruits); */
+        console.log(fruits);
 
         //Empty Values
 
@@ -711,9 +711,30 @@
 
         let person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
         person=null;
-        console.log(person);
+        console.log(person);  
 
+        //JavaScript Type Conversion
 
+        let y = "5";      // y is a string
+        let x = + y; 
+       
+        console.log(typeof y);
+        console.log(x);
+         var v=Date().toString();
+          console.log(v);
+
+          //return nan NOt a number
+          var e=" asraf";
+          console.log( parseInt(e));
+
+          //return 5
+          var f=" 5";
+          console.log( parseInt(f)); */
+
+    
+
+          var d= "5" + null;
+          console.log(d);
        
 
             
