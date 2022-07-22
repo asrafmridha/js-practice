@@ -790,9 +790,19 @@
           console.log(err.name) ;
         } */
 
+        // Type Error
+
         let num = 1;
           try {
             num.toUpperCase();   // You cannot convert a number to upper case
+          }
+          catch(err) {
+            console.log(err.name) ;
+          }
+
+          // URI (Uniform Resource Identifier) Error
+          try {
+            decodeURI("%%%%");   // You cannot URI decode percent signs
           }
           catch(err) {
             console.log(err.name) ;
