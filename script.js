@@ -734,16 +734,40 @@
     
 
           var d= "5" + null;
-          console.log(d); */
+          console.log(d);
 
           // JavaScript Regular Expressions 
 
           let text = "Is this all there is?";
          let result = text.match(/[h]/g);
          console.log(result);
+         //The test() method is a RegExp expression method.
 
          const pattern = /c/;
       var v=  pattern.test("The best things in life are free!");
-        console.log(v);
+        console.log(v);  */
+
+        // JavaScript Errors
+        
+
+        function myFunction() {
+          const message = document.getElementById("p01");
+          message.innerHTML= "";
+          let x = document.getElementById("err").value;
+          try {
+            if(x == "") throw "empty";
+            if(isNaN(x)) throw "not a number";
+            x = Number(x);
+            if(x < 5) throw "too low";
+            if(x > 10) throw "too high";
+            else{
+              throw " ok";
+            }
+          }
+          catch(err) {
+            message.innerHTML = "Input is " + err;
+          }
+        }
+        
 
             
