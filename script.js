@@ -745,7 +745,7 @@
 
          const pattern = /c/;
       var v=  pattern.test("The best things in life are free!");
-        console.log(v);  */
+        console.log(v); 
 
         // JavaScript Errors
 
@@ -788,6 +788,14 @@
         }
         catch(err) {
           console.log(err.name) ;
-        }
-       
-        
+        } */
+
+        let num = 1;
+          try {
+            num.toUpperCase();   // You cannot convert a number to upper case
+          }
+          catch(err) {
+            console.log(err.name) ;
+          }
+                
+                  
