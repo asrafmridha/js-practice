@@ -748,7 +748,7 @@
         console.log(v);  */
 
         // JavaScript Errors
-        
+
 
         function myFunction() {
           const message = document.getElementById("p01");
@@ -767,7 +767,18 @@
           catch(err) {
             message.innerHTML = "Input is " + err;
           }
+          finally {
+            document.getElementById("err").value = "";
+          }
         }
-        
 
-            
+        // Reference Error
+        let x = 5;
+        try {
+          x = y + 1;   // y cannot be used (referenced)
+        }
+        catch(err) {
+          console.log(err.name) ;
+        }
+       
+        
