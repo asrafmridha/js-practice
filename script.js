@@ -780,5 +780,14 @@
         catch(err) {
           console.log(err.name) ;
         }
+
+        //Syntax Error
+
+        try {
+          eval("alert('Hello)");   // Missing ' will produce an error
+        }
+        catch(err) {
+          console.log(err.name) ;
+        }
        
         
