@@ -729,12 +729,21 @@
 
           //return 5
           var f=" 5";
-          console.log( parseInt(f)); */
+          console.log( parseInt(f)); 
 
     
 
           var d= "5" + null;
-          console.log(d);
-       
+          console.log(d); */
+
+          // JavaScript Regular Expressions 
+
+          let text = "Is this all there is?";
+         let result = text.match(/[h]/g);
+         console.log(result);
+
+         const pattern = /c/;
+      var v=  pattern.test("The best things in life are free!");
+        console.log(v);
 
             
