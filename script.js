@@ -868,11 +868,12 @@
       class Person {
         constructor(name, age) {
           this.name = name;
-          this.year = age;
+          this.age = age;
         }
         Play (){
 
           console.log(`${this.name} is playing`);
+          console.log(`${this.name} age is ${this.age}  `);
         }
       }
      
