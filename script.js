@@ -860,8 +860,8 @@
       let car2= new Car("BMW",2017);
       let car3= new Car("SUZUKI",2017);
 
-      console.log(car1,car2,car3);
-        */
+      console.log(car1,car2,car3); */
+        
 
       // Make JavaScript another Classes
 
@@ -870,18 +870,20 @@
           this.name = name;
           this.age = age;
         }
-        Play (){
+        Play (status){
 
-          console.log(`${this.name} is playing`);
-          console.log(`${this.name} age is ${this.age}  `);
+          console.log(`${this.name} is playing  ${status} `);
+         console.log(`${this.name} age is ${this.age}   `);
+        
         }
       }
      
       let person1= new Person("Asraf",22);
-      let person2= new Person("Tonmoy",22);
+      let person2= new Person("Tonmoy",21);
 
-      person1.Play();
-      person2.Play();
+      person1.Play("well");
+      person2.Play("bad");
+     
       
       
     
