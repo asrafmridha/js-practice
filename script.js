@@ -845,4 +845,19 @@
         
         // Return "Asraf Mridha":
        console.log(person1.fullName.call(person2));
+
+      //  JavaScript Classes
+
+       class Car {
+        constructor(name, year) {
+          this.name = name;
+          this.year = year;
+        }
+      }
+
+      let car1= new Car("volvo",2017);
+      let car2= new Car("BMW",2017);
+      let car3= new Car("SUZUKI",2017);
+
+      console.log(car1,car2,car3);
         
