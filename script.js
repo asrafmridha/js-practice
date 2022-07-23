@@ -812,13 +812,37 @@
           // The JavaScript this Keyword
 
           const person = {
-            firstName: "asraf",
+            firstName: "Asraf",
             lastName : "Mridha",
             id       : 5566,
             fullName : function() {
             return this.firstName + " " + this.lastName;
+            }, 
+            getId :function(){
+
+              return this.id;
             }
           };
             //access function
          console.log(person.fullName()) ;
+         
+         //line break in javaScript
+         document.write(person.fullName()+"</br>"+"</br>") ;
+         document.write(person.getId());
+
+        //  Explicit Function Binding
+
+        const person1 = {
+          fullName: function() {
+            return this.firstName + " " + this.lastName;
+          }
+        }
+        
+        const person2 = {
+          firstName:"Asraf",
+          lastName: "Mridha",
+        }
+        
+        // Return "Asraf Mridha":
+       console.log(person1.fullName.call(person2));
         
