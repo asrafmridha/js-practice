@@ -788,7 +788,7 @@
         }
         catch(err) {
           console.log(err.name) ;
-        } */
+        } 
 
         // Type Error
 
@@ -806,6 +806,19 @@
           }
           catch(err) {
             console.log(err.name) ;
-          }
-                
-                  
+          }  
+          */
+
+          // The JavaScript this Keyword
+
+          const person = {
+            firstName: "asraf",
+            lastName : "Mridha",
+            id       : 5566,
+            fullName : function() {
+            return this.firstName + " " + this.lastName;
+            }
+          };
+            //access function
+         console.log(person.fullName()) ;
+        
