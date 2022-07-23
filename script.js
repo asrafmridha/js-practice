@@ -807,7 +807,7 @@
           catch(err) {
             console.log(err.name) ;
           }  
-          */
+         
 
           // The JavaScript this Keyword
 
@@ -845,6 +845,7 @@
         
         // Return "Asraf Mridha":
        console.log(person1.fullName.call(person2));
+      
 
       //  JavaScript Classes
 
@@ -860,4 +861,26 @@
       let car3= new Car("SUZUKI",2017);
 
       console.log(car1,car2,car3);
-        
+        */
+
+      // Make JavaScript another Classes
+
+      class Person {
+        constructor(name, age) {
+          this.name = name;
+          this.year = age;
+        }
+        Play (){
+
+          console.log(`${this.name} is playing`);
+        }
+      }
+     
+      let person1= new Person("Asraf",22);
+      let person2= new Person("Tonmoy",22);
+
+      person1.Play();
+      person2.Play();
+      
+      
+    
