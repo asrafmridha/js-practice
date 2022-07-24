@@ -860,7 +860,7 @@
       let car2= new Car("BMW",2017);
       let car3= new Car("SUZUKI",2017);
 
-      console.log(car1,car2,car3); */
+      console.log(car1,car2,car3); 
         
 
       // Make JavaScript another Classes
@@ -883,7 +883,16 @@
 
       person1.Play("well");
       person2.Play("bad");
-     
-      
-      
+       */
+
+
+        //Converting a JSON Text to a JavaScript Object
+
+        let text = '{ "employees" : [' +
+      '{ "firstName":"John" , "lastName":"Doe" },' +
+      '{ "firstName":"Anna" , "lastName":"Smith" },' +
+      '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+            
+      var obj= JSON.parse(text);
+      console.log(obj.employees[1]);
     
