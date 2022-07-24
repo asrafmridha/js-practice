@@ -895,4 +895,14 @@
             
       var obj= JSON.parse(text);
       console.log(obj.employees[1]);
+
+      // Js obj
     
+      const person = {
+        firstName:"Asraf", 
+        lastName:"Mridha",
+         age:50,  
+      };
+
+     const _myJSON = JSON.stringify(obj);
+     console.log(_myJSON);
