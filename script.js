@@ -912,7 +912,7 @@ const arr=[5,2,3];
 for(let i=0; i<arr.length; i++){
 
    console.log(arr[i]); 
-}  */
+}  
 
          //Again Object
           
@@ -928,8 +928,21 @@ for(let i=0; i<arr.length; i++){
                             return c;
                           }
                         };
+                       
                         
-                        console.log(person.getame(20,20));
+                        console.log(person.getame(20,20));  */
+
+                        
+                        const person = {
+                          firstName:"Asraf",
+                          lastName:"Mridha", 
+                          age:50,
+                          eyeColor:"blue"
+                        }
+                        //add property in obj
+                        person.country= "Bangladesh";
+                        console.log(person);
+
               
                        
 
