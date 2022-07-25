@@ -939,9 +939,23 @@ for(let i=0; i<arr.length; i++){
                           age:50,
                           eyeColor:"blue"
                         }
+                        
                         //add property in obj
                         person.country= "Bangladesh";
-                        console.log(person);
+                        console.log(person );
+                        //specific a value
+                        console.log(person.firstName,person.lastName);
+
+                        // for take dynamic value array symbol are perfect
+                           console.log(person['firstName']);
+                        
+                          
+                        
+                            
+                        
+
+
+                        
 
               
                        
