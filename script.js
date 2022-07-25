@@ -883,7 +883,7 @@
 
       person1.Play("well");
       person2.Play("bad");
-       */
+      
 
 
         //Converting a JSON Text to a JavaScript Object
@@ -897,6 +897,7 @@
       console.log(obj.employees[1]);
 
       // Js obj
+      // Convert a JavaScript object into a string with JSON.stringify(). 
     
       const person = {
         firstName:"Asraf", 
@@ -905,4 +906,31 @@
       };
 
      const _myJSON = JSON.stringify(obj);
-     console.log(_myJSON);
+     console.log(_myJSON);   
+const arr=[5,2,3];
+
+for(let i=0; i<arr.length; i++){
+
+   console.log(arr[i]); 
+}  */
+
+         //Again Object
+          
+        const person = {
+                        firstName:"Asraf",
+                        lastName:"Mridha", 
+                        age:50,
+                          eyeColor:"blue",
+                  //method
+                          getame: function(a,b){
+ 
+                            var c= a+b;
+                            return c;
+                          }
+                        };
+                        
+                        console.log(person.getame(20,20));
+              
+                       
+
+    
