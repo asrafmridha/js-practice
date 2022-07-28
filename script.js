@@ -975,6 +975,22 @@ for(let i=0; i<arr.length; i++){
                          var d= delete person.age;
                          console.log(person);
                         
+
+                        //  Nested Objects 
+
+                       let myObj = {
+                          name:"Asraf",
+                          age:30,
+                          cars: {
+                            car1:"Ford",
+                            car2:"BMW",
+                            car3:"Fiat"
+                          }
+                        }
+
+                        var d=myObj.cars.car2;
+
+                        console.log(d);
                           
                         
                             
