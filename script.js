@@ -930,7 +930,7 @@ for(let i=0; i<arr.length; i++){
                         };
                        
                         
-                        console.log(person.getame(20,20));  */
+                        console.log(person.getame(20,20));  
 
                         
                         const person = {
@@ -947,7 +947,21 @@ for(let i=0; i<arr.length; i++){
                         console.log(person.firstName,person.lastName);
 
                         // for take dynamic value array symbol are perfect
-                           console.log(person['firstName']);
+                           console.log(person['firstName']); */
+
+                          //  JavaScript for...in Loop 
+
+                           const person = {
+                            fname:" Asraf",
+                            lname:" Mridha",
+                            age: 23
+                          };
+                          var txt='';
+                          for (let x in person) {
+                          txt += person[x];
+                          }
+
+                          console.log(txt);
                         
                           
                         
