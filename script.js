@@ -961,7 +961,7 @@ for(let i=0; i<arr.length; i++){
                           txt += person[x];
                           }
 
-                          console.log(txt); */
+                          console.log(txt); 
 
                           // Deleting Properties in obj 
 
@@ -973,7 +973,7 @@ for(let i=0; i<arr.length; i++){
                           };
                           
                          var d= delete person.age;
-                         console.log(person);
+                         console.log(person); 
                         
 
                         //  Nested Objects 
@@ -991,7 +991,34 @@ for(let i=0; i<arr.length; i++){
                         var d=myObj.cars.car2;
 
                         console.log(d);
+
+                        // Nested Arrays and Objects
                           
+                        const myObj = {
+                          name: "Asraf",
+                          age: 30,
+                          cars: [
+                            {name:"Ford", models:["Fiesta", "Focus", "Mustang"]},
+                            {name:"BMW", models:["320", "X3", "X5"]},
+                            {name:"Fiat", models:["500", "Panda"]}
+                          ]
+                        }
+                         
+                        var x='';
+                        for (let i in myObj.cars) {
+                          x += "<h1>" + myObj.cars[i].name + "</h1>";
+                          for (let j in myObj.cars[i].models) {
+                            x += myObj.cars[i].models[j];
+
+                          
+                          }
+                        }  */
+
+                        let a= new String ("bangladesh");
+              
+                      
+                          console.dir(a);
+
                         
                             
                         
