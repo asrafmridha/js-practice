@@ -1012,12 +1012,29 @@ for(let i=0; i<arr.length; i++){
 
                           
                           }
-                        }  */
+                        }  
 
+                        //Prototype Properties
                         let a= new String ("bangladesh");
-              
-                      
                           console.dir(a);
+                          */
+
+                          // JavaScript Object Methods
+
+                          // Adding a Method to an Object
+                          
+                          const person = {
+                            firstName:" Asraf",
+                            lastName:" Mridha",
+                            age: 23,
+                            eyecolor:"black"
+                          };
+
+                   person.name = function () {
+                        return this.firstName + " " + this.lastName;
+                      };
+               
+                          
 
                         
                             
