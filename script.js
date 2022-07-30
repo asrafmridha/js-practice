@@ -1044,9 +1044,9 @@ for(let i=0; i<arr.length; i++){
                       };
 
                       let x= JSON.stringify(person);
-                      console.log(x);  */
+                      console.log(x);  
                
-
+                      // JavaScript Getter (The get Keyword)
                       const person = {
                         firstName:" Asraf",
                         lastName:" Mridha",
@@ -1059,7 +1059,23 @@ for(let i=0; i<arr.length; i++){
                         }
                       };
                       console.log(person.name);
-                          
+
+                      // JavaScript Setter (The set Keyword) */
+
+                      const person = {
+                        firstName:" ",
+                        lastName:" Mridha",
+                        age: 23,
+                        eyecolor:"black",
+
+                        set name(fname){
+
+                          this.firstName=fname;
+                        }
+                      };
+                     var v= person.name = "Asraf";
+                     console.log(v);
+ 
 
                         
                             
