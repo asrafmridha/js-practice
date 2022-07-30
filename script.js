@@ -1092,8 +1092,12 @@ for(let i=0; i<arr.length; i++){
           const asraf= new Person('asraf','mridha',22); 
           const tonmoy= new Person('Tonmoy','Saha',22);
           const tahmina= new Person('tahmina','mridha',22);
+  
+          // Using the prototype Property
+          Person.prototype.nationality = "Bangladesh";
+          console.log(asraf.nationality);
+          console.log(tonmoy.nationality);
 
-          console.log(asraf.fullName());
 
                         
 
