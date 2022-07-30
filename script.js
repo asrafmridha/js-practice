@@ -1032,7 +1032,7 @@ for(let i=0; i<arr.length; i++){
 
                    person.name = function () {
                         return this.firstName + " " + this.lastName;
-                      };   */
+                      };  
 
                       // Using JSON.stringify()
 
@@ -1044,8 +1044,21 @@ for(let i=0; i<arr.length; i++){
                       };
 
                       let x= JSON.stringify(person);
-                      console.log(x);
+                      console.log(x);  */
                
+
+                      const person = {
+                        firstName:" Asraf",
+                        lastName:" Mridha",
+                        age: 23,
+                        eyecolor:"black",
+
+                        get name(){
+
+                          return this.firstName+this.lastName;
+                        }
+                      };
+                      console.log(person.name);
                           
 
                         
