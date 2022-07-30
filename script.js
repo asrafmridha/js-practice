@@ -1058,27 +1058,43 @@ for(let i=0; i<arr.length; i++){
                           return this.firstName+this.lastName;
                         }
                       };
-                      console.log(person.name);
+                      console.log(person);
 
-                      // JavaScript Setter (The set Keyword) */
+                      // JavaScript Setter (The set Keyword) 
 
-                      const person = {
-                        firstName:" ",
-                        lastName:" Mridha",
-                        age: 23,
-                        eyecolor:"black",
+                    //   const person = {
+                    //     firstName:" ",
+                    //     lastName:" Mridha",
+                    //     age: 23,
+                    //     eyecolor:"black",
 
-                        set name(fname){
+                    //     set name(fname){
 
-                          this.firstName=fname;
-                        }
-                      };
-                     var v= person.name = "Asraf";
-                     console.log(v);
+                    //       this.firstName=fname;
+                    //     }
+                    //   };
+                    //  var v= person.name = "Asraf";
+                    //  console.log(person); */
+
+                    // JavaScript Object Constructors
  
 
+                    function Person(first, last, age, ) {
+                      this.firstName = first;
+                      this.lastName = last;
+                      this.age = age;
+                     this.fullName= function(){
+                        return this.firstName + this.lastName;
+                      }
+                    }
+
                         
-                            
+          const asraf= new Person('asraf','mridha',22); 
+          const tonmoy= new Person('Tonmoy','Saha',22);
+          const tahmina= new Person('tahmina','mridha',22);
+
+          console.log(asraf.fullName());
+
                         
 
 
