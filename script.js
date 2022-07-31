@@ -1074,7 +1074,7 @@ for(let i=0; i<arr.length; i++){
                     //     }
                     //   };
                     //  var v= person.name = "Asraf";
-                    //  console.log(person); */
+                    //  console.log(person); 
 
                     // JavaScript Object Constructors
  
@@ -1124,6 +1124,25 @@ for(let i=0; i<arr.length; i++){
               for (const num of myNumbers) {
                       console.log(num);
               }
+              */
+
+
+              // JavaScript Sets
+
+              // Create a Set
+               const letters = new Set(["a","b","c"]);
+               console.log(typeof letters);
+
+               // Create an Iterator
+                const myIterator = letters.entries();
+
+                // List all Entries
+                let text = "";
+                for (const entry of myIterator) {
+                  text += entry;
+                }
+
+                console.log(text);
 
 
                                       
