@@ -1099,10 +1099,37 @@ for(let i=0; i<arr.length; i++){
           console.log(tonmoy.nationality);
 
 
-                        
+
+          // iterable is an object that has a Symbol.iterator.
 
 
-                        
+                      let  myNumbers = {};
+
+              // Make it Iterable
+              myNumbers[Symbol.iterator] = function() {
+                let n = 0;
+                done = false;
+                return {
+                  next() {
+                    n += 10;
+                    if (n == 100) {done = true}
+                    return {
+                      value:n, 
+                      done:done
+                    };
+                  }
+                };
+              }
+
+              for (const num of myNumbers) {
+                      console.log(num);
+              }
+
+
+                                      
+
+
+                                      
 
               
                        
