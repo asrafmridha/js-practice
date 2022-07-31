@@ -1140,9 +1140,30 @@ for(let i=0; i<arr.length; i++){
                 let text = "";
                 for (const entry of myIterator) {
                   text += entry;
-                }
-
+                };
+                
                 console.log(text);
+
+                // JavaScript Maps
+
+                // Create a Map
+          const fruits = new Map([
+            ["apples", 500],
+            ["bananas", 300],
+            ["oranges", 200]
+          ]); 
+          console.log( fruits);
+          // The get() method gets the value of a key in a Map:
+
+          console.log(fruits.get("apples"));  //return 500
+          
+          console.log(fruits.size);  // The size property returns the number of elements in a Map:
+
+          fruits.delete("apples"); //The delete() method removes a Map element:
+
+         console.log (fruits.has("appl")); //The has() method returns true if a key exists in a Map:
+
+
 
 
                                       
