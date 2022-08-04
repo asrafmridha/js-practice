@@ -1124,7 +1124,7 @@ for(let i=0; i<arr.length; i++){
               for (const num of myNumbers) {
                       console.log(num);
               }
-              */
+              
 
 
               // JavaScript Sets
@@ -1162,12 +1162,18 @@ for(let i=0; i<arr.length; i++){
           fruits.delete("apples"); //The delete() method removes a Map element:
 
          console.log (fruits.has("appl")); //The has() method returns true if a key exists in a Map:
+         */
 
 
 
-
+        //  Function Expressions
+        // the variable can be used as a function
+        const x = function (a, b) {
+          return a * b
+        }
+       let z = x(4, 3) ;
+       console.log(z);
                                       
-
 
                                       
 
