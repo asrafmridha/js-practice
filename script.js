@@ -1172,15 +1172,20 @@ for(let i=0; i<arr.length; i++){
           return a * b
         }
        let z = x(4, 3) ;
-       console.log(z);      */
+       console.log(z);      
 
       //  The Function() Constructor
 
        const myFunction = new Function("a", "b", "return a * b");
 
        let x = myFunction(4, 3);
-       console.log(x);
+       console.log(x); */
        
+      //  Self-Invoking Functions
+
+      (function () {
+        console.log("Hello!! I am Asraf");  
+      })();
                                       
 
                                       
