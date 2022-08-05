@@ -1179,7 +1179,7 @@ for(let i=0; i<arr.length; i++){
        const myFunction = new Function("a", "b", "return a * b");
 
        let x = myFunction(4, 3);
-       console.log(x); */
+       console.log(x); 
        
       //  Self-Invoking Functions
 
@@ -1201,8 +1201,21 @@ for(let i=0; i<arr.length; i++){
       }                     
 
       x = findMax(4,5,6);
-      console.log(x);
+      console.log(x);*/
       
+
+     
+
+      function sumAll() {
+        let sum = 0;
+        for (let i = 0; i < arguments.length; i++) {
+          sum += arguments[i];
+        }
+        return sum;
+      }
+
+      x = sumAll(1, 123, 500, 115, 44, 88);
+      console.log(x);
                                       
 
               
