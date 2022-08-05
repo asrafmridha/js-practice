@@ -1186,8 +1186,23 @@ for(let i=0; i<arr.length; i++){
       (function () {
         console.log("Hello!! I am Asraf");  
       })();
-                                      
+      
 
+
+      // The Arguments Object
+      function findMax() {
+        let max = -Infinity;
+        for (let i = 0; i < arguments.length; i++) {
+          if (arguments[i] > max) {
+            max = arguments[i];
+          }
+        }
+        return max;
+      }                     
+
+      x = findMax(4,5,6);
+      console.log(x);
+      
                                       
 
               
