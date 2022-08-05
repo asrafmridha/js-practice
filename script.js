@@ -1201,7 +1201,7 @@ for(let i=0; i<arr.length; i++){
       }                     
 
       x = findMax(4,5,6);
-      console.log(x);*/
+      console.log(x);
       
 
      
@@ -1215,8 +1215,19 @@ for(let i=0; i<arr.length; i++){
       }
 
       x = sumAll(1, 123, 500, 115, 44, 88);
-      console.log(x);
-                                      
+      console.log(x); */
+
+
+      // This is a function constructor:
+function myFunction(arg1, arg2) {
+  this.firstName = arg1;
+  this.lastName  = arg2;
+}
+
+const myObj = new myFunction("Asraf", "Mridha");
+
+var x=myObj.firstName;
+   console.log(x);                                   
 
               
                        
