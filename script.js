@@ -1217,7 +1217,7 @@ for(let i=0; i<arr.length; i++){
       x = sumAll(1, 123, 500, 115, 44, 88);
       console.log(x); */
 
-
+      // Invoking a Function with a Function Constructor
       // This is a function constructor:
 function myFunction(arg1, arg2) {
   this.firstName = arg1;
@@ -1227,7 +1227,26 @@ function myFunction(arg1, arg2) {
 const myObj = new myFunction("Asraf", "Mridha");
 
 var x=myObj.firstName;
-   console.log(x);                                   
+   console.log(x);             
+   
+  //  The JavaScript call() Method
+   
+   const person = {
+    fullName: function() {
+      return this.firstName + " " + this.lastName;
+    }
+  }
+  const person1 = {
+    firstName:"Asraf",
+    lastName: "Mridha"
+  }
+  const person2 = {
+    firstName:"Mary",
+    lastName: "Doe"
+  }
+  
+  
+  person.fullName.call(person1);
 
               
                        
