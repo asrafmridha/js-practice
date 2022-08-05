@@ -1215,7 +1215,7 @@ for(let i=0; i<arr.length; i++){
       }
 
       x = sumAll(1, 123, 500, 115, 44, 88);
-      console.log(x); */
+      console.log(x); 
 
       // Invoking a Function with a Function Constructor
       // This is a function constructor:
@@ -1246,7 +1246,23 @@ var x=myObj.firstName;
   }
   
   
-  person.fullName.call(person1);
+  person.fullName.call(person1); */
+
+  // The call() Method with Arguments
+
+  const person = {
+    fullName: function(city, country) {
+      return this.firstName + " " + this.lastName + "," + city + "," + country;
+    }
+  }
+  
+  const person1 = {
+    firstName:"Asraf",
+    lastName:"Mridha"
+  }
+  
+  var v= person.fullName.call(person1, "Bangladesh", "Dhaka");
+  console.log(v);
 
               
                        
