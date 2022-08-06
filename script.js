@@ -1246,7 +1246,7 @@ var x=myObj.firstName;
   }
   
   
-  person.fullName.call(person1); */
+  person.fullName.call(person1); 
 
   // The call() Method with Arguments
 
@@ -1262,8 +1262,20 @@ var x=myObj.firstName;
   }
   
   var v= person.fullName.call(person1, "Bangladesh", "Dhaka");
-  console.log(v);
+  console.log(v); */
+      
+  // JavaScript Nested Functions
 
+  function add() {
+    let counter = 0;
+     return function() {
+      
+      counter += 1;
+    }
+  
+  }
+
+     
               
                        
 
