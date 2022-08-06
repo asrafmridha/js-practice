@@ -1262,7 +1262,7 @@ var x=myObj.firstName;
   }
   
   var v= person.fullName.call(person1, "Bangladesh", "Dhaka");
-  console.log(v); */
+  console.log(v); 
       
   // JavaScript Nested Functions
 
@@ -1285,7 +1285,31 @@ var x=myObj.firstName;
   }
 
   const bmw=new Car("BMW",2019);
-  console.log(bmw.name,bmw.year);
+  console.log(bmw.name,bmw.year);  */
+
+  // Class Inheritance
+
+  class Car {
+    constructor(brand) {
+      this.carname = brand;
+    }
+    present() {
+      return 'I have a ' + this.carname;
+    }
+  }
+  
+  class Model extends Car {
+    constructor(brand, mod) {
+      super(brand);
+      this.model = mod;
+    }
+    show() {
+      return this.present() + ', it is a ' + this.model;
+    }
+  }
+  
+  let myCar = new Model("Ford", "Mustang");
+  console.log(myCar.show());
 
      
               
