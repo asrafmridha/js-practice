@@ -1275,6 +1275,18 @@ var x=myObj.firstName;
   
   }
 
+  // JavaScript Class Syntax
+
+  class Car {
+    constructor(name, year) {
+      this.name = name;
+      this.year = year;
+    }
+  }
+
+  const bmw=new Car("BMW",2019);
+  console.log(bmw.name,bmw.year);
+
      
               
                        
