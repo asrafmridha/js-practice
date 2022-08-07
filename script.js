@@ -1324,6 +1324,15 @@ var x=myObj.firstName;
   
   myCalculator(5, 5, myDisplayer);
 
+  // Asynchronous JavaScript
+  // Waiting for a Timeout
+
+  setTimeout(myFunction, 3000);
+
+   function myFunction() {
+ console.log("I love you");
+}
+
  
      
               
