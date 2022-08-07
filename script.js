@@ -1309,7 +1309,7 @@ var x=myObj.firstName;
   }
   
   let myCar = new Model("Ford", "Mustang");
-  console.log(myCar.show()); */
+  console.log(myCar.show()); 
 
   // JavaScript Callbacks
 
@@ -1332,6 +1332,15 @@ var x=myObj.firstName;
    function myFunction() {
  console.log("I love you");
 }
+*/
+
+//setInterval function in javascript
+setInterval(myFunction, 3000);
+
+function myFunction() {
+console.log("I love you");
+}
+
 
  
      
