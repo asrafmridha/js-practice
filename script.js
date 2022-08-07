@@ -1285,7 +1285,7 @@ var x=myObj.firstName;
   }
 
   const bmw=new Car("BMW",2019);
-  console.log(bmw.name,bmw.year);  */
+  console.log(bmw.name,bmw.year);  
 
   // Class Inheritance
 
@@ -1309,8 +1309,22 @@ var x=myObj.firstName;
   }
   
   let myCar = new Model("Ford", "Mustang");
-  console.log(myCar.show());
+  console.log(myCar.show()); */
 
+  // JavaScript Callbacks
+
+  function myDisplayer(some) {
+    console.log(some);
+  }
+  
+  function myCalculator(num1, num2, myCallback) {
+    let sum = num1 + num2;
+    myCallback(sum);
+  }
+  
+  myCalculator(5, 5, myDisplayer);
+
+ 
      
               
                        
