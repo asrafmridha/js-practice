@@ -1332,14 +1332,18 @@ var x=myObj.firstName;
    function myFunction() {
  console.log("I love you");
 }
-*/
+
 
 //setInterval function in javascript
 setInterval(myFunction, 3000);
 
 function myFunction() {
 console.log("I love you");
-}
+} */
+
+// js Dom 
+
+document.getElementById("cars").innerHTML="BMW";
 
 
  
