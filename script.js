@@ -1346,14 +1346,21 @@ console.log("I love you");
 document.getElementById("cars").innerHTML="BMW";
 
 
+//JavaScript String concat()
+
+let x= "Hello";
+
+let y= "World";
+
+let z= x.concat( " ", "world");
+
+console.log( z);
+
+
 
 
  
-let text1="ABCDEFFDFSSDJHJKKIIKggggggggggg"
 
-let b=text1.length;
-
-console.log(b);
               
                        
 
