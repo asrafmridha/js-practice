@@ -1346,15 +1346,17 @@ console.log("I love you");
 document.getElementById("cars").innerHTML="BMW";
 
 
-//JavaScript String concat()
+    //array declaretion
 
-let x= "Hello";
+    const cars=['toyota','bmw', 'car'];
 
-let y= "World";
+    cars[0]="change";
 
-let z= x.concat( " ", "world");
+    cars.push('new');
 
-console.log( z);
+    console.log(cars); 
+
+
 
 
 
