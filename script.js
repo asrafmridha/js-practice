@@ -1346,8 +1346,14 @@ console.log("I love you");
 document.getElementById("cars").innerHTML="BMW";
 
 
+
+
  
-     
+let text1="ABCDEFFDFSSDJHJKKIIKggggggggggg"
+
+let b=text1.length;
+
+console.log(b);
               
                        
 
