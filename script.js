@@ -1391,7 +1391,7 @@ console.log("Task 1");
           //Promise Asynchoronus
 
           const paymentSuccess=true;
-          const marks=70;
+          const marks=80;
 
           function enroll(){
             console.log("Course enrollment is in progress");
@@ -1421,7 +1421,7 @@ console.log("Task 1");
 
             console.log("Course on progress.........");
 
-            const promis=new Promise(function(resolve,reject){
+            const promise=new Promise(function(resolve,reject){
              
               setTimeout (function() {
                 if(marks>=80){
@@ -1432,7 +1432,7 @@ console.log("Task 1");
                   reject("Sorry you are not eligble for certificate");
                 }
                 
-              },3000);
+              },2000);
 
 
             });
@@ -1443,11 +1443,11 @@ console.log("Task 1");
 
               console.log("Preparing your certificate");
 
-              const promise=new Promise(function(resolve,reject){
+              const promise=new Promise(function(resolve){
 
                 setTimeout(function(){
 
-         console.log("Congrats! You got the certificate");
+         resolve("Congrats! You got the certificate");
                 },1000);
 
               } );
@@ -1455,7 +1455,15 @@ console.log("Task 1");
               return promise;
             }
 
-            
+    enroll().then(progress)
+    .then(getCertificate)
+    .then(function(value){
+      console.log(value);
+    })
+    .catch(function(err){
+      console.log(err);
+    });
+                
        
       
 
