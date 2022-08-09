@@ -1436,7 +1436,26 @@ console.log("Task 1");
 
 
             });
+            return promise;
             }
+
+            function getCertificate(){
+
+              console.log("Preparing your certificate");
+
+              const promise=new Promise(function(resolve,reject){
+
+                setTimeout(function(){
+
+         console.log("Congrats! You got the certificate");
+                },1000);
+
+              } );
+
+              return promise;
+            }
+
+            
        
       
 
