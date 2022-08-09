@@ -1404,7 +1404,7 @@ console.log("Task 1");
             resolve();
            }else{
 
-            console.log("Payment Failed");
+            reject("Payment Failed");
            }
 
 
@@ -1429,7 +1429,7 @@ console.log("Task 1");
 
                 }else{
 
-                  console.log("Sorry you are not eligble for certificate");
+                  reject("Sorry you are not eligble for certificate");
                 }
                 
               },3000);
