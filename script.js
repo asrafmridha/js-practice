@@ -1420,6 +1420,22 @@ console.log("Task 1");
           function progress() {
 
             console.log("Course on progress.........");
+
+            const promis=new Promise(function(resolve,reject){
+             
+              setTimeout (function() {
+                if(marks>=80){
+                   resolve();
+
+                }else{
+
+                  console.log("Sorry you are not eligble for certificate");
+                }
+                
+              },3000);
+
+
+            });
             }
        
       
