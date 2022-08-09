@@ -1397,19 +1397,30 @@ console.log("Task 1");
             console.log("Course enrollment is in progress");
 
           const promise=new Promise(function(resolve,reject){
- 
-            if(paymentSuccess){
-              resolve();
-            }else{
+          setTimeout(function(){
 
-              reject("Payment failed");
-            }
+           if(paymentSuccess){
+
+            resolve();
+           }else{
+
+            console.log("Payment Failed");
+           }
 
 
           },2000);
 
 
+          });
+ 
+          return promise;
+
           }
+
+          function progress() {
+
+            console.log("Course on progress.........");
+            }
        
       
 
