@@ -1339,7 +1339,7 @@ setInterval(myFunction, 3000);
 
 function myFunction() {
 console.log("I love you");
-} */
+} 
 
 var v=80;
 
@@ -1353,7 +1353,42 @@ setTimeout(function(){
 
 } ,2000);
 
-console.log("Hlw");
+console.log("Hlw"); */
+
+
+const status=true;
+console.log("Task 1");
+//  Promise Defination 
+  const promise= new Promise(function(reslove,fail){
+    
+      setTimeout (function(){
+
+           if(status){
+           reslove("Task 2");
+           }
+           else{
+            fail("err");
+           }
+         
+      },3000);
+  });
+
+  //promise call
+  promise.
+     then(function(value){
+   console.log(value);
+
+  })
+  .catch(function(value){
+
+ console.log(value);
+
+  })
+
+  console.log("Task 3");
+
+
+  
 
 
 
