@@ -1353,7 +1353,7 @@ setTimeout(function(){
 
 } ,2000);
 
-console.log("Hlw"); */
+console.log("Hlw"); 
 
 
 const status=true;
@@ -1373,19 +1373,45 @@ console.log("Task 1");
       },3000);
   });
 
-  //promise call
-  promise.
-     then(function(value){
-   console.log(value);
+          //promise call
 
-  })
-  .catch(function(value){
+          promise.
+            then(function(value){
+          console.log(value);
 
- console.log(value);
+          })
+          .catch(function(value){
 
-  })
+        console.log(value);
 
-  console.log("Task 3");
+          })
+
+          console.log("Task 3"); */
+
+          //Promise Asynchoronus
+
+          const paymentSuccess=true;
+          const marks=70;
+
+          function enroll(){
+            console.log("Course enrollment is in progress");
+
+          const promise=new Promise(function(resolve,reject){
+ 
+            if(paymentSuccess){
+              resolve();
+            }else{
+
+              reject("Payment failed");
+            }
+
+
+          },2000);
+
+
+          }
+       
+      
 
 
   
