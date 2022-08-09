@@ -1341,20 +1341,19 @@ function myFunction() {
 console.log("I love you");
 } */
 
-// js Dom 
+var v=80;
 
-document.getElementById("cars").innerHTML="BMW";
+console.log("Hlw World");
 
+setTimeout(function(){
 
-    //array declaretion
+       if(v>70){
+        console.log(" i am asraf");
+       }
 
-    const cars=['toyota','bmw', 'car'];
+} ,2000);
 
-    cars[0]="change";
-
-    cars.push('new');
-
-    console.log(cars); 
+console.log("Hlw");
 
 
 
