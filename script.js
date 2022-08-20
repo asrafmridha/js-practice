@@ -1575,6 +1575,11 @@ console.log("Task 1");
        
       });
 
+      // Add an event listener that fires when a user resizes the window
+      window.addEventListener("resize", function(){
+        document.getElementById("resize").innerHTML =Math.random();;
+      });
+
 
   
 
