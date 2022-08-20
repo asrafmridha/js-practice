@@ -1463,12 +1463,12 @@ console.log("Task 1");
     .catch(function(err){
       console.log(err);
     });
-    */
+   
 
     //async and await make promises easier to write
 
     const paymentSuccess=true;
-    const marks=70;
+    const marks=80;
 
     function enroll(){
       console.log("Course enrollment is in progress");
@@ -1551,7 +1551,17 @@ console.log("Task 1");
 
       }
        
-      Course();
+      Course();  */
+
+      // JavaScript HTML DOM EventListener
+
+      var eventlistener=document.getElementById("eventlistener");
+
+      eventlistener.addEventListener("click",function(){
+
+        alert("Hlw, I am EventListener");
+
+      });
 
 
   
