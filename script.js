@@ -1563,6 +1563,12 @@ console.log("Task 1");
 
       });
 
+      eventlistener.addEventListener("click",function(){
+
+        alert("The Function also be executed");
+
+      });
+
 
   
 
