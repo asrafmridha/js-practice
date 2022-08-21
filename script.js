@@ -1588,6 +1588,16 @@ console.log("Task 1");
        var way2= body.firstChild.nodeValue;
        var way3=body.childNodes[0].nodeValue;
        console.log(way3);
+
+      //  Creating new HTML Elements
+
+       const para = document.createElement("p");
+        const node = document.createTextNode("This is new.");
+        para.appendChild(node);
+
+        const element = document.getElementById("div1");
+        const child = document.getElementById("p1");
+        element.insertBefore(para, child);
   
 
 
