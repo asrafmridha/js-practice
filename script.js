@@ -1581,9 +1581,13 @@ console.log("Task 1");
       });  */
 
      
+       
        var body=document.getElementById("h1");
-       var anotherway= body.firstChild.nodeValue;
-       console.log(anotherway);
+       
+       var way1= body.innerHTML;;
+       var way2= body.firstChild.nodeValue;
+       var way3=body.childNodes[0].nodeValue;
+       console.log(way3);
   
 
 
