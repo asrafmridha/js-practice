@@ -1551,7 +1551,7 @@ console.log("Task 1");
 
       }
        
-      Course();  */
+      Course(); 
 
       // JavaScript HTML DOM EventListener
 
@@ -1578,9 +1578,12 @@ console.log("Task 1");
       // Add an event listener that fires when a user resizes the window
       window.addEventListener("resize", function(){
         document.getElementById("resize").innerHTML =Math.random();;
-      });
+      });  */
 
-
+     
+       var body=document.getElementById("h1");
+       var anotherway= body.firstChild.nodeValue;
+       console.log(anotherway);
   
 
 
