@@ -1608,6 +1608,25 @@ var y = 20;
 var z = x + y;
 document.write(z + "\n");
 
+//Non Primative Data Type  // object ,array, Regular expression
+document.write;
+var A = null;
+document.write(A + "\n");
+// object
+var BioData = {
+  Name: "Tahmina",
+  Age: 25,
+  City: "Pangsha",
+};
+//Array
+var DefineArray = ["Dhaka", "Bangladesh", "Rajshai"];
+//to see datatype.
+
+document.write(typeof BioData);
+document.write(BioData.Name);
+document.write(DefineArray);
+
+
   
 
 
