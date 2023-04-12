@@ -1,4 +1,4 @@
-    /* document.write('hello world '   ); 
+/* document.write('hello world '   ); 
         document.write(11+12);
 
         console.log('Hello world');
@@ -32,8 +32,8 @@
 
     */
 
-    //let function baire use kora jabe na
-    /* if (true) {
+//let function baire use kora jabe na
+/* if (true) {
       let x = 5;
 
       console.log(x);
@@ -1547,10 +1547,8 @@ console.log("Task 1");
      catch(err){
       console.log(err);
      }
-
-
       }
-       
+    
       Course(); 
 
       // JavaScript HTML DOM EventListener
@@ -1578,7 +1576,7 @@ console.log("Task 1");
       // Add an event listener that fires when a user resizes the window
       window.addEventListener("resize", function(){
         document.getElementById("resize").innerHTML =Math.random();;
-      });  */
+      });  
 
      
        
@@ -1597,17 +1595,13 @@ console.log("Task 1");
 
         const element = document.getElementById("div1");
         const child = document.getElementById("p1");
-        element.insertBefore(para, child);
-  
+        // element.insertBefore(para, child);
+        */
 
-
-
-
-
-
- 
-
-              
-                       
-
-    
+// 12/04/2023
+  document.write("Hlw Tahmina");
+// js variable 
+  var x = 30;
+  var y = 20;
+  var z = x + y;
+  document.write(z);
