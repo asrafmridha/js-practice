@@ -1,4 +1,4 @@
-    /* document.write('hello world '   ); 
+/* document.write('hello world '   ); 
         document.write(11+12);
 
         console.log('Hello world');
@@ -32,8 +32,8 @@
 
     */
 
-    //let function baire use kora jabe na
-    /* if (true) {
+//let function baire use kora jabe na
+/* if (true) {
       let x = 5;
 
       console.log(x);
@@ -1580,27 +1580,24 @@ console.log("Task 1");
         document.getElementById("resize").innerHTML =Math.random();;
       });  */
 
-     
-       
-       var body=document.getElementById("h1");
-       
-       var way1= body.innerHTML;;
-       var way2= body.firstChild.nodeValue;
-       var way3=body.childNodes[0].nodeValue;
-       console.log(way3);
+var body = document.getElementById("h1");
 
-      //  Creating new HTML Elements
+var way1 = body.innerHTML;
+var way2 = body.firstChild.nodeValue;
+var way3 = body.childNodes[0].nodeValue;
+console.log(way3);
 
-       const para = document.createElement("p");
-        const node = document.createTextNode("This is new.");
-        para.appendChild(node);
+//  Creating new HTML Elements
 
-        const element = document.getElementById("div1");
-        const child = document.getElementById("p1");
-        // element.insertBefore(para, child);
+const para = document.createElement("p");
+const node = document.createTextNode("This is new.");
+para.appendChild(node);
 
+const element = document.getElementById("div1");
+const child = document.getElementById("p1");
+// element.insertBefore(para, child);
 
-      // 12/04/2023
+// 12/04/2023
 document.write("Hlw Tahmina\n");
 // js variable
 var x = 30;
@@ -1626,17 +1623,13 @@ document.write(typeof BioData);
 document.write(BioData.Name);
 document.write(DefineArray);
 
-
-  
-
-
-
-
-
-
- 
-
-              
-                       
-
-    
+// if else condition
+var age = 30;
+var City = "Pangsha";
+if (age > 18 && City == "Dhaka") {
+  document.write("You are adult and you live in Dhaka");
+} else if (age > 18) {
+  document.write("You are adult");
+} else {
+  document.write("I don't know who are you?");
+}
