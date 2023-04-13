@@ -1635,8 +1635,11 @@ if (age > 18 && City == "Dhaka") {
 }
 
 //Switch case
-var marks = 74;
+var marks = 180;
 switch (true) {
+  case marks > 100:
+    document.write("Wops! Something Went Wrong");
+    break;
   case marks < 100 && marks >= 80:
     document.write("A+");
     break;
