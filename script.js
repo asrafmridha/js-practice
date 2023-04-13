@@ -1633,3 +1633,21 @@ if (age > 18 && City == "Dhaka") {
 } else {
   document.write("I don't know who are you?");
 }
+
+//Switch case
+var marks = 74;
+switch (true) {
+  case marks < 100 && marks >= 80:
+    document.write("A+");
+    break;
+
+  case marks < 80 && marks >= 70:
+    document.write("A");
+    break;
+
+  case marks < 70 && marks >= 60:
+    document.write("A-");
+    break;
+  default:
+    document.write("F");
+}
