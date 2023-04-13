@@ -1598,17 +1598,17 @@ const child = document.getElementById("p1");
 // element.insertBefore(para, child);
 
 // 12/04/2023
-document.write("Hlw Tahmina\n");
+document.write("Hlw Tahmina <br>");
 // js variable
 var x = 30;
 var y = 20;
 var z = x + y;
-document.write(z + "\n");
+document.write(z + "<br>");
 
 //Non Primative Data Type  // object ,array, Regular expression
 document.write;
 var A = null;
-document.write(A + "\n");
+document.write(A + "<br>");
 // object
 var BioData = {
   Name: "Tahmina",
@@ -1619,9 +1619,9 @@ var BioData = {
 var DefineArray = ["Dhaka", "Bangladesh", "Rajshai"];
 //to see datatype.
 
-document.write(typeof BioData);
-document.write(BioData.Name);
-document.write(DefineArray);
+document.write(typeof BioData + "<br>");
+document.write(BioData.Name + "<br>");
+document.write(DefineArray + "<br>");
 
 // if else condition
 var age = 30;
@@ -1638,7 +1638,7 @@ if (age > 18 && City == "Dhaka") {
 var marks = 180;
 switch (true) {
   case marks > 100:
-    document.write("Wops! Something Went Wrong");
+    document.write("Wops! Something Went Wrong  <br>");
     break;
   case marks < 100 && marks >= 80:
     document.write("A+");
@@ -1653,4 +1653,10 @@ switch (true) {
     break;
   default:
     document.write("F");
+}
+
+// for loop
+var i;
+for (i = 0; i < 10; i++) {
+  document.write(i + "<button class='btn btn-primary'>Submit</button> <br>");
 }
