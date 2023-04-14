@@ -1668,10 +1668,17 @@ for (i = 0; i < 10; i++) {
     break;
   } 
   document.write(i + "<button class='btn btn-primary'>Submit</button> <br>");
-}*/
+}
 // while loop
 var i = 0;
 while (i < 5) {
   document.write(i + "<button class='btn btn-primary'>Submit</button> <br>");
   i++;
 }
+
+// do while loop
+var i = 0;
+do {
+  document.write(i + "<button class='btn btn-primary'>Submit</button> <br>");
+  i++;
+} while (i < 5); */
