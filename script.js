@@ -1681,7 +1681,7 @@ var i = 0;
 do {
   document.write(i + "<button class='btn btn-primary'>Submit</button> <br>");
   i++;
-} while (i < 5); */
+} while (i < 5);  */
 
 function msg(parameters) {
   alert("Hlw Tahmina" + " " + parameters);
@@ -1689,5 +1689,9 @@ function msg(parameters) {
 msg("How are You?");
 function myFunction(p1, p2) {
   return p1 * p2;
+} 
+//এখানে মাই ফাংশন মানেই ১০ অথবা এটা পুরোটাই ইন্টেজার এবং মান ১০// ফাংশন যা রিটান করে ফাংশন তার সমান
+if (myFunction(5, 2) == 10) {
+  alert("ওহে ইরানি কাপুরুষ, তুমি অন্যায়ভাবে আমাকে যুদ্ধে বধ করেছো");
 }
-alert(myFunction(10, 20));
+
