@@ -1682,3 +1682,12 @@ do {
   document.write(i + "<button class='btn btn-primary'>Submit</button> <br>");
   i++;
 } while (i < 5); */
+
+function msg(parameters) {
+  alert("Hlw Tahmina" + " " + parameters);
+}
+msg("How are You?");
+function myFunction(p1, p2) {
+  return p1 * p2;
+}
+alert(myFunction(10, 20));
