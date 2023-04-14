@@ -1658,5 +1658,8 @@ switch (true) {
 // for loop
 var i;
 for (i = 0; i < 10; i++) {
+  if (i == 5 || i == 8) {
+    continue;
+  }
   document.write(i + "<button class='btn btn-primary'>Submit</button> <br>");
 }
