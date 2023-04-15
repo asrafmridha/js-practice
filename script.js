@@ -1705,11 +1705,17 @@ var Person = {
 // document.write(Person['country']); or
 document.write(Person.name + "<br>");
 //show object object
-document.write(Person); */
+document.write(Person); 
 
 // Array javascript
 const cars = ["Saab", "Volvo", "BMW"];
 var i;
 for (i = 0; i < cars.length; i++) {
   document.write(cars[i] + "<br>");
-}
+} */
+
+const cars = ["Saab", "Volvo", "BMW"];
+  
+   for (let item in cars) {
+     console.log(cars[item]);
+   }
