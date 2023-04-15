@@ -1712,10 +1712,20 @@ const cars = ["Saab", "Volvo", "BMW"];
 var i;
 for (i = 0; i < cars.length; i++) {
   document.write(cars[i] + "<br>");
-} */
+} 
 
 const cars = ["Saab", "Volvo", "BMW"];
   
    for (let item in cars) {
      console.log(cars[item]);
-   }
+   } */
+// for in loop in object
+const Person = {
+  name: "Tahmina",
+  age: 25,
+  city: "Pangsha",
+  country: "Bangladesh",
+};
+for (let item in Person) {
+  document.write(item + ":" + Person[item] + "<br>");
+}
