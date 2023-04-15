@@ -1598,7 +1598,7 @@ const child = document.getElementById("p1");
 // element.insertBefore(para, child);
 
 // 12/04/2023
-document.write("Hlw Tahmina <br>");
+/* document.write("Hlw Tahmina <br>");
 // js variable
 var x = 30;
 var y = 20;
@@ -1656,7 +1656,7 @@ switch (true) {
 }
 
 // for loop
-/*var i;
+var i;
 for (i = 0; i < 10; i++) {
    continue statement
      if (i == 5 || i == 8) {
@@ -1681,7 +1681,7 @@ var i = 0;
 do {
   document.write(i + "<button class='btn btn-primary'>Submit</button> <br>");
   i++;
-} while (i < 5);  */
+} while (i < 5);  
 
 function msg(parameters) {
   alert("Hlw Tahmina" + " " + parameters);
@@ -1693,5 +1693,16 @@ function myFunction(p1, p2) {
 //এখানে মাই ফাংশন মানেই ১০ অথবা এটা পুরোটাই ইন্টেজার এবং মান ১০// ফাংশন যা রিটান করে ফাংশন তার সমান
 if (myFunction(5, 2) == 10) {
   alert("ওহে ইরানি কাপুরুষ, তুমি অন্যায়ভাবে আমাকে যুদ্ধে বধ করেছো");
-}
+} */
 
+// Javascript Object
+var Person = {
+  name: "Tahmina",
+  age: 25,
+  city: "Pangsha",
+  country: "Bangladesh",
+};
+// document.write(Person['country']); or
+document.write(Person.name + "<br>");
+//show object object
+document.write(Person);
