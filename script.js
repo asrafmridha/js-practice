@@ -1693,7 +1693,7 @@ function myFunction(p1, p2) {
 //এখানে মাই ফাংশন মানেই ১০ অথবা এটা পুরোটাই ইন্টেজার এবং মান ১০// ফাংশন যা রিটান করে ফাংশন তার সমান
 if (myFunction(5, 2) == 10) {
   alert("ওহে ইরানি কাপুরুষ, তুমি অন্যায়ভাবে আমাকে যুদ্ধে বধ করেছো");
-} */
+} 
 
 // Javascript Object
 var Person = {
@@ -1705,4 +1705,11 @@ var Person = {
 // document.write(Person['country']); or
 document.write(Person.name + "<br>");
 //show object object
-document.write(Person);
+document.write(Person); */
+
+// Array javascript
+const cars = ["Saab", "Volvo", "BMW"];
+var i;
+for (i = 0; i < cars.length; i++) {
+  document.write(cars[i] + "<br>");
+}
