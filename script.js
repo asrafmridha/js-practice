@@ -1754,7 +1754,7 @@ document.write(result);
 // var result = ages.filter(function (item) {
 //   return item > 10;
 // });
-// document.write(result); */
+// document.write(result); 
 
 // Array Find
 const ages = [32, 33, 16, 40];
@@ -1767,4 +1767,11 @@ console.log(result);
 var result = ages.findIndex(function (item) {
   return item > 30;
 });
-console.log(result);
+console.log(result); */
+
+// Array ForEach Method
+var arr1 = ["Tahmina", 25, "pangsha"];
+var result = arr1.forEach(function (fetch) {
+  console.log(fetch);
+});
+
