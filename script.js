@@ -1740,7 +1740,7 @@ document.write(arr3);
 // Array From to convert a string into Array
 var arr = Array.from("Tahmina Toma");
 document.write(arr);
-document.write(arr[5]); */
+document.write(arr[5]); 
 
 // Array Filter
 function checkAdult(age)  {
@@ -1754,4 +1754,17 @@ document.write(result);
 // var result = ages.filter(function (item) {
 //   return item > 10;
 // });
-// document.write(result);
+// document.write(result); */
+
+// Array Find
+const ages = [32, 33, 16, 40];
+var result = ages.find(function (item) {
+  return item > 30;
+});
+console.log(result);
+
+// Array FindIndex 
+var result = ages.findIndex(function (item) {
+  return item > 30;
+});
+console.log(result);
