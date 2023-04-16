@@ -1718,7 +1718,7 @@ const cars = ["Saab", "Volvo", "BMW"];
   
    for (let item in cars) {
      console.log(cars[item]);
-   } */
+   } 
 // for in loop in object
 const Person = {
   name: "Tahmina",
@@ -1728,4 +1728,16 @@ const Person = {
 };
 for (let item in Person) {
   document.write(item + ":" + Person[item] + "<br>");
-}
+} */
+
+// Array Concate Array Form
+
+var arr1 = ["Tahmina", 25, "pangsha"];
+var arr2 = ["Priyanka", 23, "pangsha"];
+
+var arr3 = arr1.concat(arr2);
+document.write(arr3);
+// Array From to convert a string into Array
+var arr = Array.from("Tahmina Toma");
+document.write(arr);
+document.write(arr[5]);
