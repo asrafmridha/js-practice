@@ -1728,7 +1728,7 @@ const Person = {
 };
 for (let item in Person) {
   document.write(item + ":" + Person[item] + "<br>");
-} */
+} 
 
 // Array Concate Array Form
 
@@ -1740,4 +1740,18 @@ document.write(arr3);
 // Array From to convert a string into Array
 var arr = Array.from("Tahmina Toma");
 document.write(arr);
-document.write(arr[5]);
+document.write(arr[5]); */
+
+// Array Filter
+function checkAdult(age)  {
+  return age >= 18;
+}
+
+const ages = [32, 33, 16, 40];
+const result = ages.filter(checkAdult);
+document.write(result);
+// another way 
+// var result = ages.filter(function (item) {
+//   return item > 10;
+// });
+// document.write(result);
