@@ -1778,7 +1778,7 @@ var result = arr1.forEach(function (fetch) {
 // Array Reverse
 var numArray = [30, 32, 40, 55, 60, 80, 90];
 var result = numArray.reverse();
-document.write(result);  */
+document.write(result);  
 
 //Array Push
 var numArray = [30, 32, 40, 55, 60, 80, 90];
@@ -1786,4 +1786,9 @@ numArray.push(100);
 numArray.push(120);
 document.write(numArray);
 numArray.pop();
+document.write(numArray); */
+
+// Array Sort
+var numArray = [30, 32, 40, 55, 60, 80, 90];
+numArray.sort();
 document.write(numArray);
