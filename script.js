@@ -1785,3 +1785,5 @@ var numArray = [30, 32, 40, 55, 60, 80, 90];
 numArray.push(100);
 numArray.push(120);
 document.write(numArray);
+numArray.pop();
+document.write(numArray);
