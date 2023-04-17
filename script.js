@@ -1767,11 +1767,15 @@ console.log(result);
 var result = ages.findIndex(function (item) {
   return item > 30;
 });
-console.log(result); */
+console.log(result); 
 
 // Array ForEach Method
 var arr1 = ["Tahmina", 25, "pangsha"];
 var result = arr1.forEach(function (fetch) {
   console.log(fetch);
-});
+}); */
 
+// Array Reverse
+var numArray = [30, 32, 40, 55, 60, 80, 90];
+var result = numArray.reverse();
+document.write(result);
