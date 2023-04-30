@@ -1791,9 +1791,12 @@ document.write(numArray);
 // Array Sort
 var numArray = [30, 32, 40, 55, 60, 80, 90];
 numArray.sort();
-document.write(numArray); */
+document.write(numArray); 
 
 // Array Slice
 var numArray = [30, 32, 40, 55, 60, 80, 90];
 var result = numArray.slice(1,3);
-document.write(result);
+document.write(result); */
+
+//Date Object
+var obj = new Date();
