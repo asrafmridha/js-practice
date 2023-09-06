@@ -19,21 +19,23 @@ var javaScript = {
   name: "javaScript",
   libaries: ["Vue", "Angular", "React"],
 
-  // arrow function use this 
-  printLibaries: function () { 
+  // arrow function use this
+  /*printLibaries: function () { 
     this.libaries.forEach((a) => {  
       console.log(`${this.name} Loves ${a}`);
     })
-  }
+  }*/
 
-
-  // normal function use this 
+  // normal function use this
   /*printLibaries: function () {
     var self = this;
     this.libaries.forEach(function (a) {
       console.log(`${self.name} Loves ${a}`);
     });
   },*/
-}; 
+};
 
-javaScript.printLibaries();
+// javaScript.printLibaries();
+
+
+
